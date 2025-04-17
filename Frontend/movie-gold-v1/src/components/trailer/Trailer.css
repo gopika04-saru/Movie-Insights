@@ -1,0 +1,10 @@
+.react-player-container {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 20px;
+    box-sizing: border-box;
+} 
