@@ -22,24 +22,6 @@ A Spring Boot application that provides RESTful APIs for managing movies and use
 
 ---
 
-## 📂 Project Structure
-
-├── src 
-│ └── main 
-│ └── java 
-│ └── com.example.Movie 
-│ ├── controller 
-│ ├── model 
-│ ├── service 
-│ └── config 
-├── resources 
-│ └── application.properties 
-├── pom.xml 
-└── README.md
-
-
----
-
 ## 🔐 Environment Setup
 
 Configure your `.env` file with the following:
