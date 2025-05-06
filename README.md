@@ -190,6 +190,18 @@ The frontend interacts with the following API endpoints:
 Ensure the backend API is running and integrated with this frontend.
 
 ---
+## 📸 Output Screenshots
+
+### 🏠 Homepage
+![Homepage](ScreenShots/HomePage.bmp)
+
+### 🎬 Trailer Video Page
+![Movie Detail Page](ScreenShots/TrailerVideo.bmp)
+
+### 📝 Review Submission Page
+![Review Submission](ScreenShots/review-submission.bmp)
+
+---
 ## Contact
 
 - **Email**: [kotakalagopika@gmail.com]
