@@ -113,7 +113,8 @@ server.port=8080
 ```
 
 ---
-```env
+## .env
+```
 MONGO_USER=your_username
 MONGO_PASSWORD=your_password
 MONGO_CLUSTER=your_cluster_url
