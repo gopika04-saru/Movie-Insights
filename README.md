@@ -102,15 +102,15 @@ MONGO_DATABASE=movie-api-db
 
 ---
 
-## 🔧 Backend Configuration (application.properties)
+## 🔧 Backend Configuration (`application.properties`)
 
-#### spring.application.name=Movie
-#### spring.data.mongodb.uri=mongodb+srv://${MONGO_USER}:{MONGO_PASSWORD}@${MONGO_CLUSTER}/${MONGO_DATABASE}?retryWrites=true&w=majority&appName=Cluster0
-#### dotenv.enabled=true
-#### logging.level.org.springframework.data.mongodb.core.MongoTemplate=DEBUG
-#### server.port=8080
-
-### Make sure to create a .env file in the backend root with:
+```properties
+spring.application.name=Movie
+spring.data.mongodb.uri=mongodb+srv://${MONGO_USER}:${MONGO_PASSWORD}@${MONGO_CLUSTER}/${MONGO_DATABASE}?retryWrites=true&w=majority&appName=Cluster0
+dotenv.enabled=true
+logging.level.org.springframework.data.mongodb.core.MongoTemplate=DEBUG
+server.port=8080
+```
 
 ---
 ```env
